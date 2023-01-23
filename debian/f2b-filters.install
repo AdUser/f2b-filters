@@ -1,0 +1,2 @@
+filters/*.preg /usr/share/f2b/filters
+filters/*.pcre /usr/share/f2b/filters

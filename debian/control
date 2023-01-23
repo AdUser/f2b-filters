@@ -1,0 +1,14 @@
+Source: f2b-filters
+Section: misc
+Priority: optional
+Maintainer: Alex 'AdUser' Z <ad_user@runbox.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://git.linuxdv.org/ad_user/f2b-filters
+Vcs-Git: https://git.linuxdv.org/ad_user/f2b-filters.git
+Rules-Requires-Root: no
+
+Package: f2b-filters
+Architecture: all
+Depends: ${misc:Depends}
+Description: Collection of regexp lists for log processing/data extraction with f2b
