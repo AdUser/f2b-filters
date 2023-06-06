@@ -5,7 +5,9 @@
 <HOST> .* "(GET|HEAD|POST) (https?://[0-9a-z.-]+)?(:[0-9]*)?/+Ringing\.at\.your\.dorbell
 <HOST> .* "(GET|HEAD|POST) (https?://[0-9a-z.-]+)?(:[0-9]*)?/.*(wget|curl)(\\x|%)20https?://
 <HOST> .* "(GET|HEAD|POST) .*/bin/(ba|c|z)?sh( |\\x20|%20)-c
+<HOST> .* "(GET|HEAD|POST) .*XDEBUG_SESSION_START=phpstorm
 <HOST> .* "(\\x[0-9a-z]{2,6})+" 400
+<HOST> .* (\\x[0]{2,6}){2,}.* 400
 # set: defscore=10
 # phpmyadmin and variations
 <HOST> .* "(GET|HEAD|POST) (https?://[0-9a-z.-]+)?(:[0-9]*)?/+(php|sqlite)-?(manager)?
