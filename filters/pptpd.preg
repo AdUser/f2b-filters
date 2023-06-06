@@ -1,0 +1,2 @@
+# set: defscore=1
+pptpd.* CTRL: Client <HOST> control connection started
