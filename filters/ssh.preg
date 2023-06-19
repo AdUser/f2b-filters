@@ -15,3 +15,4 @@ Invalid user [[:print:]]+ from <HOST>
 refused connect from [[:print:]]+ \(<HOST>\)
 Did not receive identification string from <HOST>
 Connection closed by <HOST>( port [0-9]+)? \[preauth\]
+Connection closed by authenticating user [[:print:]]+ <HOST> port [0-9]+ [preauth]
